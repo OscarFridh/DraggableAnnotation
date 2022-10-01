@@ -13,6 +13,7 @@
 		B82256A228E8AB8F008B1F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82256A028E8AB8F008B1F26 /* Main.storyboard */; };
 		B82256A428E8AB8F008B1F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82256A328E8AB8F008B1F26 /* Assets.xcassets */; };
 		B82256A728E8AB8F008B1F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82256A528E8AB8F008B1F26 /* LaunchScreen.storyboard */; };
+		B82256AF28E8ACA0008B1F26 /* DraggableAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82256AE28E8ACA0008B1F26 /* DraggableAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B82256A328E8AB8F008B1F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B82256A628E8AB8F008B1F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B82256A828E8AB8F008B1F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82256AE28E8ACA0008B1F26 /* DraggableAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B822569A28E8AB8F008B1F26 /* AppDelegate.swift */,
 				B822569C28E8AB8F008B1F26 /* SceneDelegate.swift */,
 				B822569E28E8AB8F008B1F26 /* ViewController.swift */,
+				B82256AE28E8ACA0008B1F26 /* DraggableAnnotation.swift */,
 				B82256A028E8AB8F008B1F26 /* Main.storyboard */,
 				B82256A328E8AB8F008B1F26 /* Assets.xcassets */,
 				B82256A528E8AB8F008B1F26 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82256AF28E8ACA0008B1F26 /* DraggableAnnotation.swift in Sources */,
 				B822569F28E8AB8F008B1F26 /* ViewController.swift in Sources */,
 				B822569B28E8AB8F008B1F26 /* AppDelegate.swift in Sources */,
 				B822569D28E8AB8F008B1F26 /* SceneDelegate.swift in Sources */,
